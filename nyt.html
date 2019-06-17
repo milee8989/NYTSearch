@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Document</title>
+   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+   <div class="container">
+       <div class="jumbotron" style="background-color: navy; color: white;">
+           <div id="title">
+               <h2 class=text-center>New York TImes Search</h2>
+           </div>
+       </div>
+
+       <div class="panel panel-primary">
+           <div class="panel-heading padding: 50px">
+               search parameters
+           </div>
+           <br>
+           <form>
+               <div class="form-group" style="padding: 10px">
+                   <label for="exampleFormControlInput1">Search Term</label>
+                   <input type="search" id="search" class="form-control">
+               </div>
+               <div class="form-group" style="padding: 10px">
+                   <label for="exampleFormControlSelect1">Number of Records to Retrieve</label>
+                   <select class="form-control" id="exampleFormControlSelect1">
+                       <option>1</option>
+                       <option>2</option>
+                       <option>3</option>
+                       <option>4</option>
+                       <option>5</option>
+                   </select>
+               </div>
+               <div class="form-group" style="padding: 10px">
+                   <label for="exampleFormControlInput1">Start Year(Optional)</label>
+                   <input type="search" class="form-control">
+               </div>
+               <div class="form-group" style="padding: 10px">
+                   <label for="exampleFormControlInput1">End Year(Optional)</label>
+                   <input type="search" class="form-control">
+               </div>
+               <br>
+               <button type="button" id="submit" style="margin: 10px" class="btn btn-primary">Search</button>
+
+               <button type="button" class="btn btn-primary">Clear Results</button>
+
+
+
+           </form>
+       </div>
+   </div>
+   </div>
+   </div>
+   <div id="div"></div>
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="./Api.js"></script>
+   <script>
+
+
+
+
+
+   </script>
+
+</body>
+
+</html>
